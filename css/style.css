@@ -49,8 +49,9 @@ section {
 }
 
 img {
-    display: block;
+    display: inline;
     max-width: 100%;
+    height: auto;
 }
 
 strong {
@@ -388,10 +389,12 @@ header {
 .portfolio--item {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio--img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+    object-fit: cover;
 }
 
 .portfolio--img:hover {
