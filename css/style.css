@@ -314,13 +314,12 @@ header {
 }
 
 .servicios {
-    margin-bottom: 10em;
+    margin-bottom: 6em;
 }
 
 .servicio {
     max-width: 300px;
-    margin: 10px 160px;
-    ;
+    margin: 10px auto;
 }
 
 @media (min-width: 800px) {
